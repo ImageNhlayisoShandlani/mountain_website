@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shandlani Skills Test</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section id="carousel">
+      <nav>
+        <div id="logo">
+          <img src="img/logo(2).png" alt="" id="logo" />
+        </div>
+        <button class="menu-icon"></button>
+        <ul>
+          <li><a href="#history">01.Historys</a></li>
+          <li><a href="#schedule">02.Team</a></li>
+        </ul>
+      </nav>
+      <div id="welcome-text">
+        <h3><i id="first">LOSANGELES</i><br /><i id="second">MOUNTAINS</i></h3>
+      </div>
+    </section>
+    <section id="stick-nav">
+      <nav>
+        <div id="stick-nav-logo-text">
+          <a href="#carousel"
+            ><img src="img/logo(2).png" alt="" class="home-go"
+          /></a>
+          <h3>
+            <i id="first">LOSANGELES</i><br /><i id="second">MOUNTAINS</i>
+          </h3>
+        </div>
+        <button class="menu-icon"></button>
+        <ul>
+          <li><a href="#history">01.History</a></li>
+          <li><a href="#schedule">02.Team</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="history">
+      <div id="history-text">
+        <div id="top-history">
+          <p id="number">01</p>
+          <div id="txt">
+            <p>HISTORY</p>
+            <br />
+            <div id="squere"></div>
+          </div>
+        </div>
+        <div id="bottom-history">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus est
+            laboriosam provident nostrum libero, consequuntur dolores voluptatem
+            aspernatur facere sequi! Consectetur explicabo esse optio quo
+            eligendi, laboriosam sit veritatis sed inventore harum dolorum
+            repudiandae porro accusantium sunt mollitia corrupti aut.
+          </p>
+        </div>
+      </div>
+      <div id="slide-history">
+        <div id="carousel-slide">
+          <div id="slide-div">
+            <div id="pictures">
+              <div class="pic-active pics" onclick="change(1)">
+                <img src="img/slide-1.PNG" alt="" />
+              </div>
+              <div class="pics" onclick="change(2)">
+                <img src="img/slide-2.PNG" alt="" />
+              </div>
+              <div class="pics" onclick="change(3)">
+                <img src="img/slide-3.PNG" alt="" />
+              </div>
+              <div class="pics" onclick="change(4)">
+                <img src="img/slide-4.PNG" alt="" />
+              </div>
+            </div>
+            <div id="slide-nav">
+              <div class="round-active rounds" onclick="change(1)"></div>
+              <div class="rounds" onclick="change(2)"></div>
+              <div class="rounds" onclick="change(3)"></div>
+              <div class="rounds" onclick="change(4)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="climb">
+      <div id="history-text">
+        <div id="top-history">
+          <p id="number">02</p>
+          <div id="txt">
+            <p>CLIMB</p>
+            <br />
+            <div id="squere"></div>
+          </div>
+        </div>
+        <div id="bottom-history">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo
+            facilis officiis ad placeat facere repudiandae ducimus cum voluptas,
+            illo dolore voluptatum optio excepturi dolorum!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mount-navigation">
+      <ul>
+        <li class="mount-active"><a>MOUNTAIN 1</a></li>
+        <li><a>MOUNTAIN 2</a></li>
+      </ul>
+    </section>
+
+    <section id="schedule">
+      <div id="schedule-wrap">
+        <div id="the-schedule">
+          <div id="title"><h1>SCHEDULE</h1></div>
+          <div id="schedule-info">
+            <div class="month">
+              <div class="left-date">
+                <p>25 Nov 2016</p>
+                <p>28 Nov 2016</p>
+              </div>
+              <div class="right-place">
+                <p>Vestibulum vivera</p>
+                <p>Vestibulum vivera</p>
+              </div>
+            </div>
+            <div class="month">
+              <div class="left-date"><p>18 Dec 2016</p></div>
+              <div class="right-place"><p>Vestibulum vivera</p></div>
+            </div>
+            <div class="month">
+              <div class="left-date">
+                <p>7 Jan 2017</p>
+              </div>
+              <div class="right-place"><p>Vestibulum vivera</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mobile-hidden-menu">
+      <div class="mobi-wrap">
+        <div class="top">
+          <a href="#carousel"
+            ><img src="img/logo(2).png" alt="" class="home-go"
+          /></a>
+          <button></button>
+        </div>
+
+        <div class="the-nav">
+          <ul>
+            <li><a href="#history" onclick="eraseMenu()">01.History</a></li>
+            <li><a href="#schedule" onclick="eraseMenu()">02.Team</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div id="foot-logo">
+          <img src="img/logo(2).png" alt="" id="logo" />
+          <h3>
+            <i id="first">LOSANGELES</i><br /><i id="second">MOUNTAINS</i>
+          </h3>
+        </div>
+        <div id="copy"><p>Copyright 2016.All rights reserved.</p></div>
+      </nav>
+      <div id="footer-cover"></div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
